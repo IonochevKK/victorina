@@ -10,6 +10,8 @@
             padding: 3rem;
             font-family: sans-serif;
             text-align: center;
+            background: rgb(245,128,44);
+            background: linear-gradient(0deg, rgba(245,128,44,0.96656162464986) 0%, rgba(235,241,97,0.9693627450980392) 100%);
         }
         header {
             width: 70%;
@@ -17,8 +19,10 @@
         }
         main {
             max-width: 70%;
-
-            margin: 0px auto;
+            background-color:rgba(255, 254, 254,0.4);
+            border-radius: 20px;
+            padding: 2rem;
+            margin: 2px auto;
             display:flex; 
             flex-direction: column;
         }
@@ -43,26 +47,32 @@
         }
         button {
             padding: 0.9rem;
-            width: 100%;
             margin: 0.2rem;
+            width: 100%;
             font-size: medium;
-            border-radius: 5px;
             box-shadow: 3px 3px 3px grey;
-            max-width: 100%;
+            background-color: rgba(246, 188, 53);
+            border:2px #ffc02d solid;
+            border-radius: 15px;
         }
         button:hover{
             padding: 0.9rem;
             margin: 0.2rem;
             font-size: medium;
-            border-radius: 5px;
+            border-radius: 15px;
             box-shadow: 3px 3px 3px grey;
-            background-color:aliceblue;
+            border:2px #f5cd04 solid;
+            box-shadow: 0 0 10px #f5cd04;
         }
         .correct {
             background-color: lightgreen;
+            border:2px lightgreen solid;
+            box-shadow: 0 0 15px lightgreen;
         }
         .incorrect {
-            background-color: lightpink;
+            background-color:rgb(253, 27, 72);
+            border:2px rgb(253, 27, 72) solid;
+            box-shadow: 0 0 15px rgb(253, 27, 72);
         }
         .hidden {
             display: none;
